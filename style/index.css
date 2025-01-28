@@ -1,0 +1,139 @@
+:root {
+    --color-primary: #824FF1;
+    --color-purple: #0A1B32;
+    --color-font: #1B0A42;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-font);
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo-menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header ul li.selected {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px var(--color-purple);
+}
+
+header .main-menu {
+    margin-left: 3rem;
+}
+
+ul.right-menu {}
+
+ul.right-menu li {}
+
+ul.right-menu button {
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.logo-text {
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 30px;
+    color: black;
+    text-shadow: 1px 1px 5px #0A1B32;
+    margin: 0;
+}
+
+.logo-punkt {
+    color: #824FF1;
+}
+
+main {}
+
+.content-header {
+    line-height: 1;
+    font-size: 72px;
+    margin: 0;
+    font-family: "Ramaraja", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    background-color: var(--color-primary);
+    padding: 0 40px;
+    height: 63px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: roboto;
+    margin-top: 40px;
+    box-shadow: 1px 1px 5px var(--color-purple);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.text-image-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.text-image-wrapper>div {
+    width: 50%;
+}
+
+.text-wrapper {
+    padding: 2rem 5rem;
+}
+
+.text-wrapper p {
+    color: #9A9A9A;
+    line-height: 1.8;
+}
+
+.image-wrapper svg {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+#home {
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+    color: #0A1B32
+}
+
+nav {
+    list-style: none;
+}
